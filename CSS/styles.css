@@ -11,7 +11,7 @@ body{
 
 
 div#hero{
-    background-image: url(images/Look-Up-Photo-hero-banner.jpg);
+    background-image: url(/images/Look-Up-Photo-hero-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -47,7 +47,7 @@ nav div#sidenav{
 
 .verticaltext{
     position: fixed;
-    font-family: "DolceVita";
+    font-family: "Open Sans";
     font-weight: normal;
     font-size: 13px;
     color: #575757;
@@ -75,16 +75,37 @@ nav div#topnav{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+div#lookupstuff{
+  margin-top: 32.5%;
+  margin-left: 10%;
+  width: 50%;
+  height: 40%;
+}
   
 h1.middle-hero-text{
-    font-size: 7vw;
-    line-height: 6.5vw;
-    margin-bottom: 10px;
-    letter-spacing: 14px;
-    font-family: "Gotham-Medium";
-    font-weight: bold;
-    text-shadow: 1px 3px 2px #000;
-    letter-spacing: 0px;
+      font-size: 7vw;
+      line-height: 6.5vw;
+      margin-bottom: 10px;
+      letter-spacing: 14px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      text-shadow: 2px 0px 1px #000;
+      letter-spacing: 0px;
+      color: white;
+
+
+}
+
+
+
+.lookupcontent{
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 17px;
+  display: block;
+
 }
 
 @font-face {
