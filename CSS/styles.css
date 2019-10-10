@@ -51,8 +51,8 @@ nav div#sidenav{
 
 .verticaltext{
     position: fixed;
-    font-family: "Open Sans";
-    font-weight: normal;
+    font-family: "Dolce Vita Heavy";
+    font-weight: bold;
     font-size: 13px;
     color: #575757;
     top: 68%;
@@ -93,7 +93,7 @@ h1.middle-hero-text{
       line-height: 6.5vw;
       margin-bottom: 10px;
       letter-spacing: 14px;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Dolce Vita Heavy";
       font-weight: bold;
       text-shadow: 2px 0px 1px #000;
       letter-spacing: 0px;
