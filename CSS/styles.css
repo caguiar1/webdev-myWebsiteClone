@@ -11,7 +11,7 @@ body{
 
 
 div#hero{
-    background-image: url(/images/Look-Up-Photo-hero-banner.jpg);
+    background-image: url(images/Look-Up-Photo-hero-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -108,6 +108,14 @@ h1.middle-hero-text{
 
 }
 
-div#events img{
+div#events{
   display: inline-block;
+  margin-left: 100px;
+  width: 100vw;
 }
+
+div#eventOne{
+  display: block;
+}
+
+
