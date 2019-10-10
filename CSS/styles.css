@@ -10,8 +10,8 @@ body{
 }
 
 
-div#hero{
-    background-image: url(images/Look-Up-Photo-hero-banner.jpg);
+div#hero img{
+    
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
