@@ -192,7 +192,8 @@
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     display: block;
-    font-family: "Dolce Vita Heavy";
+    font-family: DolceVitaHeavy;
+    font-weight: normal;
     font-size: 60px;
     font-weight: 400;
     height: 192px;
@@ -229,7 +230,7 @@
     color:rgb(255, 255, 255);
     cursor:pointer;
     display:inline-block;
-    font-family:GothamBold;
+    font-family:"GothamBold";
     font-size:13px;
     font-weight:400;
     height:41px;
@@ -287,6 +288,7 @@ hr {
     z-index: -10000000;
 }
 
+
 .right-img {
   float: right;
   width: 50%;
@@ -301,7 +303,7 @@ display: inline;
 font-size: 14px;
 /* height: 920px; */
 line-height:20px;
-margin-top:10%;
+/* margin-top:10%; */
 overflow-x:hidden;
 overflow-y:hidden;
 position:relative;
@@ -309,3 +311,8 @@ text-size-adjust:100%;
 /* width:100vw; */
 -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
+
+
+@font-face{font-family:"DolceVita";src:url("/FONTS/DolceVita.eot");src:url("/FONTS/DolceVita.eot?#iefix") format("embedded-opentype"),url("/FONTS/DolceVita.woff") format("woff"),url("/FONTS/DolceVita.ttf") format("truetype"),url("/FONTS/DolceVita.svg") format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:"DolceVitaLight";src:url("/FONTS/DolceVitaLight.eot");src:url("/FONTS/DolceVitaLight.eot?#iefix") format("embedded-opentype"),url("/FONTS/DolceVitaLight.woff") format("woff"),url("/FONTS/DolceVitaLight.ttf") format("truetype"),url("/FONTS/DolceVitaLight.svg") format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:"DolceVitaHeavyBold";src:url("/FONTS/DolceVitaHeavyBold.eot");src:url("/FONTS/DolceVitaHeavyBold.eot?#iefix") format("embedded-opentype"),url("/FONTS/DolceVitaHeavyBold.woff") format("woff"),url("/FONTS/DolceVitaHeavyBold.ttf") format("truetype"),url("/FONTS/DolceVitaHeavyBold.svg") format("svg");font-weight:normal;font-style:normal}
